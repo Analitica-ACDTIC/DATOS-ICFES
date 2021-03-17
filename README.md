@@ -17,3 +17,6 @@ Al 17 de marzo de 2021 los siguientes datasets sí están disponibles en Datos A
 * 2019-II (https://www.datos.gov.co/Educaci-n/Saber-11-2019-2/ynam-yc42)
 * 2018-I (https://www.datos.gov.co/Educaci-n/Resultados-Saber-11-2018-1-Refinado/ptck-fi3s)
 * 2017-I (https://www.datos.gov.co/Educaci-n/Saber-11-2017-1/w7bi-rwg5) (Link privado)
+
+Hallazgos:
+- Base 2017-2 no tiene variable FAMI_TIENEINTERNET
