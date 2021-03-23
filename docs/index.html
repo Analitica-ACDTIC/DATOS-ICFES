@@ -14,17 +14,39 @@
 <div class="container-fluid">
   <h1>Análisis de impacto: Acceso a internet - Saber 11</h1>
   <p>Impacto del acceso a internet en el puntaje global promedio de las pruebas Saber 11.</p>
-  
-  <div class="container-fluid">
-    <!-- Control the column width, and how they should appear on different devices -->
-    <div class="row">
-      <div class="col-sm-6"><iframe id="inlineFrameExample" style="border:none;" width="100%" height=500 src="https://analitica-acdtic.github.io/DATOS-ICFES/nacional.html"></iframe></div>
-      <div class="col-sm-6"><iframe id="inlineFrameExample" style="border:none;" width="100%" height=500 src="https://analitica-acdtic.github.io/DATOS-ICFES/bogota.html"></iframe></div>
+
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Dedicación</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Acceso en casa</a>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+      <div class="container-fluid">
+        <!-- Control the column width, and how they should appear on different devices -->
+        <div class="row">
+          <div class="col-sm-6"><iframe id="inlineFrameExample" style="border:none;" width="100%" height=500 src="https://analitica-acdtic.github.io/DATOS-ICFES/nacional.html"></iframe></div>
+          <div class="col-sm-6"><iframe id="inlineFrameExample" style="border:none;" width="100%" height=500 src="https://analitica-acdtic.github.io/DATOS-ICFES/bogota.html"></iframe></div>
+        </div>
+      </div>
     </div>
-    <div class="row">
-      <div class="col-sm-12"><iframe width="100%" height="800" src="https://datastudio.google.com/embed/reporting/e16b3819-5e88-4ab0-b452-2d106490c48a/page/iw77B" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+      <div class="container-fluid">
+        <!-- Control the column width, and how they should appear on different devices -->
+        <div class="row">
+          <div class="col-sm-6"><iframe id="inlineFrameExample" style="border:none;" width="100%" height=500 src="https://analitica-acdtic.github.io/DATOS-ICFES/fami_nacional.html"></iframe></div>
+          <div class="col-sm-6"><iframe id="inlineFrameExample" style="border:none;" width="100%" height=500 src="https://analitica-acdtic.github.io/DATOS-ICFES/fami_bogota.html"></iframe></div>
+        </div>
+      </div>
     </div>
   </div>
+  <div class="row">
+    <div class="col-sm-12"><iframe width="100%" height="800" src="https://datastudio.google.com/embed/reporting/e16b3819-5e88-4ab0-b452-2d106490c48a/page/iw77B" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+  </div>
+
 </div>
 
 </body>
