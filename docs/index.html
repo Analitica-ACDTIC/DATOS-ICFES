@@ -19,7 +19,7 @@
     <li class="nav-item" role="presentation">
       <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Dedicación</a>
     </li>
-    <li class="nav-item" role="presentation">
+    <li class="nav-item" role="presentation" id="first-child">
       <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Acceso en casa</a>
     </li>
   </ul>
@@ -28,26 +28,33 @@
       <div class="container-fluid">
         <!-- Control the column width, and how they should appear on different devices -->
         <div class="row">
-          <div class="col-sm-6"><iframe id="inlineFrameExample" style="border:none;" width="100%" height=500 src="https://analitica-acdtic.github.io/DATOS-ICFES/nacional.html"></iframe></div>
-          <div class="col-sm-6"><iframe id="inlineFrameExample" style="border:none;" width="100%" height=500 src="https://analitica-acdtic.github.io/DATOS-ICFES/bogota.html"></iframe></div>
+          <div class="col-md-6"><iframe id="inlineFrameExample" style="border:none;" width="100%" height=500 src="https://analitica-acdtic.github.io/DATOS-ICFES/nacional.html"></iframe></div>
+          <div class="col-md-6"><iframe id="inlineFrameExample" style="border:none;" width="100%" height=500 src="https://analitica-acdtic.github.io/DATOS-ICFES/bogota.html"></iframe></div>
+        </div>
+        <div class="row">
+          <div class="col-md-12"><iframe width="100%" height="800" src="https://datastudio.google.com/embed/reporting/e16b3819-5e88-4ab0-b452-2d106490c48a/page/iw77B" frameborder="0" style="border:0" allowfullscreen></iframe></div>
         </div>
       </div>
     </div>
-    <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab" width="100%">
       <div class="container-fluid">
         <!-- Control the column width, and how they should appear on different devices -->
         <div class="row">
-          <div class="col-sm-6"><iframe id="inlineFrameExample" style="border:none;" width="100%" height=500 src="https://analitica-acdtic.github.io/DATOS-ICFES/fami_nacional.html"></iframe></div>
-          <div class="col-sm-6"><iframe id="inlineFrameExample" style="border:none;" width="100%" height=500 src="https://analitica-acdtic.github.io/DATOS-ICFES/fami_bogota.html"></iframe></div>
+          <div class="col-md-6"><iframe id="inlineFrameExample" style="border:none;" width="100%" height=500 src="https://analitica-acdtic.github.io/DATOS-ICFES/fami_nacional.html"></iframe></div>
+          <div class="col-md-6"><iframe id="inlineFrameExample" style="border:none;" width="100%" height=500 src="https://analitica-acdtic.github.io/DATOS-ICFES/fami_bogota.html"></iframe></div>
+        </div>
+        <div class="row">
+          <div class="col-md-12"><iframe width="100%" height="800" src="https://datastudio.google.com/embed/reporting/b6437ad0-8430-44a0-8800-609fc650b9ca/page/dR28B" frameborder="0" style="border:0" allowfullscreen></iframe></div>
         </div>
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-sm-12"><iframe width="100%" height="800" src="https://datastudio.google.com/embed/reporting/e16b3819-5e88-4ab0-b452-2d106490c48a/page/iw77B" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-  </div>
 
 </div>
-
+<script type="text/javascript">
+  window.onload=function(){
+    document.getElementById("profile-tab").click();
+  };
+</script>
 </body>
 </html>
